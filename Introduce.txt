@@ -1,0 +1,16 @@
+Intro
+Example: https://guides.github.com/activities/hello-world/
+readme-edits
+Mit tortoise
+git://github.com/tco2019/hello-world.git
+git://github.com/tco2019/hello-world2.git https://github.com/tco2019/hello-world2.git https://github.com/tco2019/hello-world2/pull/1.patch
+
+
+git fetch origin
+git checkout -b readme-edits origin/readme-edits
+git merge master
+
+git checkout master
+git merge --no-ff readme-edits
+git push origin master
+
