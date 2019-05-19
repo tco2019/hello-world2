@@ -16,3 +16,6 @@ git push origin master
 
 #wenn von einem branch geklont werden muss
 git.exe clone --progress --branch branch01 -v "git://github.com/tco2019/hello-world2.git"
+
+git init --bare myserver-repo.git
+Kapitel 10.3
