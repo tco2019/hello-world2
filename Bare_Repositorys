@@ -1,0 +1,2 @@
+git init --bare myserver-repo.git
+Kapitel 10.3
