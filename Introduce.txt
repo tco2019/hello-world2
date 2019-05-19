@@ -19,3 +19,4 @@ git.exe clone --progress --branch branch01 -v "git://github.com/tco2019/hello-wo
 
 git init --bare myserver-repo.git
 Kapitel 10.3
+git clone --progress --bare --branch branch01 -v "git://github.com/tco2019/hello-world2.git" "C:\Users\TinoAdmin\hello-world1\hello-world2-bare"
