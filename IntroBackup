@@ -12,6 +12,7 @@ git diff --staged
 git branch
 git branch --list
 git branch --list -vv
+git branch --list --remote --verbose
 git remote show
 git remote show origin
 git remote --verbose
@@ -26,7 +27,13 @@ git log --first-parent --oneline
 git log --walk-reflogs --decorate --pretty --all
 git log --graph
 git log --graph --oneline
+git log --decorate --graph --oneline
 git log --stat -1
+git log --merges
+git log HEAD1 HEAD2
+
+git remote show origin
+git remote --verbose
 
 git diff
 git difftool
@@ -38,8 +45,14 @@ git cat-file -p <id>
 
 git fsck
 
-
-
+git add .
+git commit -m "irgend etwas"
+git merge
+git pull
+git log --oneline --graph
+git remote show origin
+git branch --list --remote --verbose
+git push 
 
 
 
