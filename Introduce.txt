@@ -7,6 +7,7 @@ Mit tortoise
 git://github.com/tco2019/hello-world.git
 git://github.com/tco2019/hello-world2.git https://github.com/tco2019/hello-world2.git https://github.com/tco2019/hello-world2/pull/1.patch
 
+git config --list
 git status
 git status --short
 git diff
@@ -23,6 +24,8 @@ git branch --no-merged origin oder origin/master oder branch01
 git remote show
 git remote show origin
 git remote --verbose
+git remote -v
+
 
 git reflog
 git reflog -all
@@ -41,6 +44,10 @@ git log HEAD1 HEAD2
 git log --decorate --oneline --graph --all
 git log --decorate --oneline --abbrev-commit --graph --all
 git log --merge -p -- <dateiname>
+
+git log --stat --oneline --graph
+git log -p -2
+git log --pretty=format:"%h - %an, %ar : %s"
 
 
 git hash-object -w <dateiname>
