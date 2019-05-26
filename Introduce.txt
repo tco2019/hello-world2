@@ -1,3 +1,5 @@
+﻿https://lab.github.com/?installation_id=1064012&setup_action=install
+
 Intro
 Example: https://guides.github.com/activities/hello-world/
 readme-edits
@@ -5,6 +7,60 @@ Mit tortoise
 git://github.com/tco2019/hello-world.git
 git://github.com/tco2019/hello-world2.git https://github.com/tco2019/hello-world2.git https://github.com/tco2019/hello-world2/pull/1.patch
 
+git status
+git status --short
+git diff
+git diff --staged
+git diff --word-diff
+git difftool
+
+git branch
+git branch --list
+git branch --list -vv
+git branch --list --remote --verbose
+git branch --no-merged origin oder origin/master oder branch01
+
+git remote show
+git remote show origin
+git remote --verbose
+
+git reflog
+git reflog -all
+git reflog show master
+
+git log --oneline
+git log --stat   oder auch --dirstat --shortstat 
+git log --first-parent --oneline
+git log --walk-reflogs --decorate --pretty --all
+git log --graph
+git log --graph --oneline
+git log --decorate --graph --oneline
+git log --stat -1
+git log --merges
+git log HEAD1 HEAD2
+git log --decorate --oneline --graph --all
+git log --decorate --oneline --abbrev-commit --graph --all
+git log --merge -p -- <dateiname>
+
+
+git hash-object -w <dateiname>
+git cat-file -p <id>
+git fsck
+git add .
+git commit -m "irgend etwas"
+
+git merge
+git pull
+
+git push 
+git push -v "https://github.com/tco2019/hello-world2.git"
+git push origin master
+
+git show
+git show :1:<dateiname>
+git show :2:<dateiname>
+git show :3:<dateiname>
+git show-ref
 
 git fetch origin
 git checkout -b readme-edits origin/readme-edits
@@ -12,17 +68,22 @@ git merge master
 
 git checkout master
 git merge --no-ff readme-edits
-git push origin master
 
+git.exe clone --progress -v "git://github.com/tco2019/hello-world2.git" "C:\Users\TinoAdmin\hello-world2\hello-world2a"
 #wenn von einem branch geklont werden muss
 git.exe clone --progress --branch branch01 -v "git://github.com/tco2019/hello-world2.git"
 git remote show origin
-
-¼######################
 
 git init --bare myserver-repo.git
 Kapitel 10.3
 
 # n
-# git init --bare --branch branch01 -v "git://github.com/tco2019/hello-world2.git"
+## git init --bare --branch branch01 -v "git://github.com/tco2019/hello-world2.git"
 git clone --progress --bare --branch branch01 -v "git://github.com/tco2019/hello-world2.git" "C:\Users\TinoAdmin\hello-world1\hello-world2-bare"
+
+#21.05.2019 start
+# lokal
+git was?
+
+# kernel
+git clone git://git.kernel.org/pub/scm/git/git.git
