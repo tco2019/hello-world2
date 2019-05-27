@@ -49,6 +49,11 @@ git log --stat --oneline --graph
 git log -p -2
 git log --pretty=format:"%h - %an, %ar : %s"
 
+#u217350
+$ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset %C(bold blue)[%p]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+$ git lg
+
+
 
 git hash-object -w <dateiname>
 git cat-file -p <id>
