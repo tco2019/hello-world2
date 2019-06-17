@@ -1,0 +1,14 @@
+Pyhton
+
+Pragmatic Unicode: https://nedbatchelder.com/text/unipain.html
+Selenium: https://selenium-python.readthedocs.io/installation.html
+from modul import function // API // Extending C/C++ : https://docs.python.org/3/search.html?q=from+modul+import+function
+finest geek automatedstuff : https://nostarch.com/automatestuff/ and http://inventwithpython.com/
+Buch file:///C:/Users/TinoAdmin/Documents/Bücher/Python/Automate%20the%20Boring%20Stuff%20with%20Python%20-%20Al%20Sweigart.epub 
+   Converting Strings into datetime Objects
+   Umwandlung aus Excel
+Buch file:///C:/Users/TinoAdmin/Documents/Bücher/Python/Ernesti_Python-3_9783836258661.epub
+Anaconda : http://docs.anaconda.com/anaconda/user-guide/getting-started/
+Anaconda Cloud : https://anaconda.org/
+
+https://github.com/topics/python
