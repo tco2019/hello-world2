@@ -1,0 +1,10 @@
+
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo ufw allow 22
+
+https://www.howtogeek.com/howto/17012/how-to-find-your-ip-address-in-ubuntu/
+netstat -ano
+
+#Falls der session: unable to launch "gnome-session-cinnamon" Xsession…."gnome-session-cinnamon" not found: falling back to default session.
+sudo apt-get install --reinstall cinnamon
