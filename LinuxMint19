@@ -3,8 +3,19 @@ sudo apt-get update
 sudo apt-get install openssh-server
 sudo ufw allow 22
 
-https://www.howtogeek.com/howto/17012/how-to-find-your-ip-address-in-ubuntu/
+https://www.howtogeek.com/howto/17012/how-to-find-your-ip-address-in-ubuntu/eNtsOVZMjKomdKsasOyQoolrSrzRUgoZ/
 netstat -ano
 
 #Falls der session: unable to launch "gnome-session-cinnamon" Xsession…."gnome-session-cinnamon" not found: falling back to default session.
 sudo apt-get install --reinstall cinnamon
+
+Kali:
+service ssh status
+service ssh start
+netstat -an | grep :22
+
+/etc/apt/apt.conf..d/30proxy
+Acquire::http::proxy "http://userid:xx@dev-proxy.wzu.io:3128/";
+Acquire::https::proxy "http://userid:xx@dev-proxy.wzu.io:3128/";
+
+
