@@ -16,6 +16,10 @@ netstat -an | grep :22
 oder mit nmap ip Adresse
 sudo systemctl enable ssh
 
+sudo apt install docker.io 
+docker run hello-world 
+apt install calibre 
+apt install filezilla
 
 /etc/apt/apt.conf..d/30proxy
 Acquire::http::proxy "http://userid:xx@dev-proxy.wzu.io:3128/";
@@ -25,4 +29,6 @@ https://ifconfig.co/ip
 
 ssh 192.168.174.135 -l tindaro
 ssh 192.168.174.136 -l tindaro
+
+
 
