@@ -20,6 +20,7 @@ sudo apt install docker.io
 docker run hello-world 
 apt install calibre 
 apt install filezilla
+sudo apt install htop
 
 /etc/apt/apt.conf..d/30proxy
 Acquire::http::proxy "http://userid:xx@dev-proxy.wzu.io:3128/";
