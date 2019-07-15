@@ -3,13 +3,15 @@ sudo apt-get install -y powershell
 
 
 sudo apt-get update
+sudo apt list --upgradable
+sudo apt list --upgradable -a
+sudo apt upgrade
+
+
 sudo apt-get install openssh-server
 sudo ufw allow 22
 
 evtl.:sudo apt install net-tools
-
-
-apt list --upgradable
 
 
 https://www.howtogeek.com/howto/17012/how-to-find-your-ip-address-in-ubuntu/eNtsOVZMjKomdKsasOyQoolrSrzRUgoZ/
