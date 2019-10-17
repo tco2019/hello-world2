@@ -1,0 +1,7 @@
+https://github.com/GoogleCloudPlatform/microservices-demo/
+https://knative.dev/docs/serving/samples/grpc-ping-go/
+
+https://www.informatik-aktuell.de/entwicklung/methoden/microservices-mit-go.html
+
+https://github.com/dariubs/GoBooks
+
