@@ -1,0 +1,10 @@
+#Zufallszahlen
+https://www.random.org/
+
+#Python
+https://www.python-kurs.eu/buch/
+https://www.python-kurs.eu/numerisches_programmieren_in_Python.php
+
+#jupyter
+https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html
+
