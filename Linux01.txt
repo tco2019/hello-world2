@@ -1,0 +1,5 @@
+Handbuch Data Science p 38
+alias lsrec=’ls -alhpt | head -n 10’ # ls the last ten changed files
+alias allscu=’bind -P | grep “can be found” | sort | awk ‘{printf “ %-40s”, $1}
+{for(i=6;i<=NF;i++){printf “ %s “, $i}{printf”\n”}}’’ # all short cuts in a linux env
+which hive # -> where is the file located that I would call.
