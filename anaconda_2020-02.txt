@@ -1,0 +1,213 @@
+Download it
+tindaro@HP-tm2-01:~/Downloads$ sh Anaconda3-2020.02-Linux-x86_64.sh
+
+The following packages are included in this distribution that relate to cryptogr
+aphy:
+
+openssl
+    The OpenSSL Project is a collaborative effort to develop a robust, commercia
+l-grade, full-featured, and Open Source toolkit implementing the Transport Layer
+ Security (TLS) and Secure Sockets Layer (SSL) protocols as well as a full-stren
+gth general purpose cryptography library.
+
+pycrypto
+    A collection of both secure hash functions (such as SHA256 and RIPEMD160), a
+nd various encryption algorithms (AES, DES, RSA, ElGamal, etc.).
+
+pyopenssl
+    A thin Python wrapper around (a subset of) the OpenSSL library.
+
+kerberos (krb5, non-Windows platforms)
+    A network authentication protocol designed to provide strong authentication 
+for client/server applications by using secret-key cryptography.
+
+cryptography
+    A Python library which exposes cryptographic recipes and primitives.
+
+pycryptodome
+    A fork of PyCrypto. It is a self-contained Python package of low-level crypt
+ographic primitives.
+
+pycryptodomex
+    A stand-alone version of pycryptodome.
+
+kerberos (krb5, non-Windows platforms)
+    A network authentication protocol designed to provide strong authentication 
+for client/server applications by using secret-key cryptography.
+
+cryptography
+    A Python library which exposes cryptographic recipes and primitives.
+
+pycryptodome
+    A fork of PyCrypto. It is a self-contained Python package of low-level crypt
+ographic primitives.
+
+pycryptodomex
+    A stand-alone version of pycryptodome.
+
+libsodium
+    A software library for encryption, decryption, signatures, password hashing 
+and more.
+
+pynacl
+    A Python binding to the Networking and Cryptography library, a crypto librar
+y with the stated goal of improving usability, security and speed.
+
+Last updated February 25, 2020
+
+
+Do you accept the license terms? [yes|no]
+[no] >>> yes
+....
+....
+==> For changes to take effect, close and re-open your current shell. <==
+
+If you'd prefer that conda's base environment not be activated on startup, 
+   set the auto_activate_base parameter to false: 
+
+conda config --set auto_activate_base false
+
+Thank you for installing Anaconda3!
+
+===========================================================================
+
+Anaconda and JetBrains are working together to bring you Anaconda-powered
+environments tightly integrated in the PyCharm IDE.
+
+PyCharm for Anaconda is available at:
+https://www.anaconda.com/pycharm
+
+tindaro@HP-tm2-01:~/Downloads$ conda update -n base -c defaults conda
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+...
+
+(base) tindaro@HP-tm2-01:~$ conda create -n deeplearning2020 python=3.7 tensorflow keras nb_conda numpy matplotlib notebook
+(base) tindaro@HP-tm2-01:~$ conda create -n deeplearning2020 python=3.7 tensorflow keras nb_conda numpy matplotlib notebook 
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /home/tindaro/anaconda3/envs/deeplearning2020
+
+  added / updated specs:
+    - keras
+    - matplotlib
+    - nb_conda
+    - notebook
+    - numpy
+    - python=3.7
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cachetools-3.1.1           |             py_0          14 KB
+    google-auth-oauthlib-0.4.1 |             py_2          20 KB
+    ipython-7.13.0             |   py37h5ca1d4c_0         991 KB
+    jupyter_core-4.6.3         |           py37_0          75 KB
+    nb_conda_kernels-2.2.3     |           py37_0          39 KB
+    parso-0.6.2                |             py_0          70 KB
+    pygments-2.6.1             |             py_0         654 KB
+    python-3.7.7               |hcf32534_0_cpython        45.0 MB
+    setuptools-46.1.3          |           py37_0         521 KB
+    tensorboard-2.1.0          |            py3_0         3.3 MB
+    tensorflow-base-2.1.0      |mkl_py37h6d63fb7_0        95.2 MB
+    ------------------------------------------------------------
+                                           Total:       145.9 MB
+
+.....
+plearning2020/etc/jupyter\n    - Validating...\n      nb_conda 2.2.1 \x1b[32mOK\x1b[0m\n'
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate deeplearning2020
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) tindaro@HP-tm2-01:~$ ^C
+(base) tindaro@HP-tm2-01:~$ conda activate deeplearning2020
+(deeplearning2020) tindaro@HP-tm2-01:~$ jupyter notebook list
+
+(base) tindaro@HP-tm2-01:~$ jupyter notebook list
+Currently running servers:
+http://localhost:8888/?token=0649b9d370ddc24677f972a2fce530405c033666ecd18a54 :: /home/tindaro
+(base) tindaro@HP-tm2-01:~$
+
+(deeplearning2020) tindaro@HP-tm2-01:~$ jupyter notebook 
+[I 14:11:48.770 NotebookApp] [nb_conda_kernels] enabled, 2 kernels found
+[I 14:11:48.818 NotebookApp] Writing notebook server cookie secret to /home/tindaro/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 14:11:49.661 NotebookApp] [nb_conda] enabled
+[I 14:11:49.661 NotebookApp] Serving notebooks from local directory: /home/tindaro
+[I 14:11:49.662 NotebookApp] The Jupyter Notebook is running at:
+[I 14:11:49.662 NotebookApp] http://localhost:8888/?token=c9176a26052f07dabcd2dfad066bcd28cbc8379be713eb15
+[I 14:11:49.662 NotebookApp]  or http://127.0.0.1:8888/?token=c9176a26052f07dabcd2dfad066bcd28cbc8379be713eb15
+[I 14:11:49.662 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:11:49.994 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/tindaro/.local/share/jupyter/runtime/nbserver-14287-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=c9176a26052f07dabcd2dfad066bcd28cbc8379be713eb15
+     or http://127.0.0.1:8888/?token=c9176a26052f07dabcd2dfad066bcd28cbc8379be713eb15
+[I 14:12:19.720 NotebookApp] Creating new notebook in 
+[I 14:12:19.991 NotebookApp] Writing notebook-signing key to /home/tindaro/.local/share/jupyter/notebook_secret
+[I 14:12:22.915 NotebookApp] Kernel started: 72d7155a-b866-4b1a-9ba4-e5606e245b52
+[W 14:12:23.209 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200411141148 (127.0.0.1) 79.16ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=conda-env-deeplearning2020-py
+[I 14:14:22.763 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:16:22.751 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:17:18.614 NotebookApp] Saving file at /Untitled.ipynb
+[W 14:17:29.563 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200411141148 (127.0.0.1) 4.54ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[I 14:17:49.477 NotebookApp] Starting buffering for 72d7155a-b866-4b1a-9ba4-e5606e245b52:3bb213b6d41a41f18aa313b7ccec9522
+[I 14:17:51.286 NotebookApp] Shutting down on /api/shutdown request.
+[I 14:17:51.288 NotebookApp] Shutting down 1 kernel
+[I 14:17:52.493 NotebookApp] Kernel shutdown: 72d7155a-b866-4b1a-9ba4-e5606e245b52
+(deeplearning2020) tindaro@HP-tm2-01:~$ jupyter notebook list
+Currently running servers:
+http://localhost:8888/?token=0649b9d370ddc24677f972a2fce530405c033666ecd18a54 :: /home/tindaro
+(deeplearning2020) tindaro@HP-tm2-01:~$ 
+
+http://localhost:8888/?token=0649b9d370ddc24677f972a2fce530405c033666ecd18a54
+
+(deeplearning2020) tindaro@HP-tm2-01:~$ conda list | grep keras
+keras                     2.3.1                         0  
+keras-applications        1.0.8                      py_0  
+keras-base                2.3.1                    py37_0  
+keras-preprocessing       1.1.0                      py_1  
+(deeplearning2020) tindaro@HP-tm2-01:~$ 
+
+
+====
+(base) tindaro@HP-tm2-01:~$ conda list | grep python
+ipython                   7.12.0           py37h5ca1d4c_0  
+ipython_genutils          0.2.0                    py37_0  
+msgpack-python            0.6.1            py37hfd86e86_1  
+python                    3.7.6                h0371630_2  
+python-dateutil           2.8.1                      py_0  
+python-jsonrpc-server     0.3.4                      py_0  
+python-language-server    0.31.7                   py37_0  
+python-libarchive-c       2.8                     py37_13  
+(base) tindaro@HP-tm2-01:~$ nc
+
+=========
+openssl s_client -crlf -connect www.google.com:443 -quiet
+
+===============
+
+Start jupyter: jupyter notebook
+
+
+
+
+
+
+
+
+
+
